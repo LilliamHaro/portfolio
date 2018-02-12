@@ -1,0 +1,172 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.bg-header {
+  background-image: url(../assets/images/office.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  background-color: rgb(197, 224, 109);
+  color: white;
+}
+.bg-nav {
+  background-color:rgba(255, 0, 0, 0.5);
+}
+.shadow {
+  box-shadow: 0px 8px 10px #999;
+}
+.bg-black {
+  background-color: black;
+}
+.border-top {
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+.border-bottom {
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+}
+.bg-red-rgba {
+  background-color:rgba(255, 0, 0, 0.5);
+}
+.font-ptincipal {
+  font-family: 'Righteous', cursive;
+}
+.font-size-7rem {
+  font-size: 7em;
+}
+.font-size-2rem {
+  font-size: 2rem;
+}
+.font-size-5rem {
+  font-size: 5rem;
+}
+.navbar-default .navbar-nav > li > a {
+    color: white;
+}
+.round {
+  border-radius: 50%;
+  border: 10px solid rgba(0,0,0,0.8);
+  width: 160px;
+  height: 160px;
+  margin: auto;
+  transition: box-shadow 0.2s;
+}
+.round:hover {
+    box-shadow: 0px 5px 5px 0px #999;
+    /* transition-duration: 0.25s; */
+}
+.borde {
+  position: relative;
+}
+.barra {
+  height: 15px;
+  border: 5px solid rgba(0,0,0,0.8);
+  border-radius: 5px;
+  width: 50%;
+  margin:auto;
+  margin-top: 10px;
+  margin-bottom: 25px;
+}
+.font-size-15 {
+  font-size: 15px;
+}
+.pd-top-15 {
+  padding-top: 15px;
+}
+.width-50 {
+  width: 50%;
+}
+.width-60 {
+  width: 60%;
+}
+.width-70 {
+  width: 70%;
+}
+.width-80 {
+  width: 80%;
+}
+.height-15 {
+  height: 5px;
+}
+.borde::before .borde::after {
+  content: '';
+  display: table;
+   width: 100%;
+   height: 0px;
+ clear: both;
+position: absolute;
+right: 0;
+}
+
+/*clases reutilizables */
+.flex-center-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.pd-bottom-45{
+  padding-bottom: 45px;
+}
+.pd-top-45{
+  padding-top: 45px;
+}
+.image {
+  width: 300px;
+  height: 250px;
+  margin: auto;
+}
+.border-radius{
+  border-radius: 5px;
+}
+.bg-soft-gray {
+  background-color: #cccdc7;
+}
+.pd-left-30 {
+  padding-left: 30px
+}
+.mg-45 {
+  margin:  0 45px;
+}
+.mg-all-45 {
+  margin: 45px;
+}
+.mg-top-45 {
+  margin-top: 45px;
+}
+.rgba-9 {
+  background-color: rgba(0,0,0,0.8);
+}
+.color-white {
+  color: white;
+}
+.color-black {
+  color: black
+}
+.pd-45 {
+  padding: 45px;
+}
+.float-rigth {
+  float: right;
+}
+.border-none {
+  border: none;
+}
+.color-white {
+  color: white;
+}
+.bg-white {
+  background-color: white;
+}
+
+/* alturas */
+.heigth-100 {
+  height: 100vh;
+}
+.height-10 {
+  height: 10vh;
+}
+.heigth-70 {
+  height: 70vh;
+}
