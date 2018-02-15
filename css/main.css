@@ -13,6 +13,8 @@
 .bg-nav {
   background-color:rgba(255, 0, 0, 0.5);
   background-color: #C1A8E4;
+  height: 70px;
+  transition: height 2s;
 }
 .shadow {
   box-shadow: 0px 8px 10px #999;
@@ -137,8 +139,16 @@ right: 0;
 .mg-top-45 {
   margin-top: 45px;
 }
+.bg-nav-scroll {
+  background-color: black;
+  height: auto;
+  /* color: black; */
+}
+.color-black{
+  color: black;
+}
 .rgba-9 {
-  background-color: rgba(0,0,0,0.8);
+  background-color: rgba(0,0,0,0.5);
 }
 .color-white {
   color: white;
