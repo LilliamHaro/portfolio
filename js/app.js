@@ -7,7 +7,7 @@ $(document).ready(function() {
       $('.navbar-fixed-top').removeClass('bg-black');
       // $('.navbar-fixed-top').addClass('height-10');
     }
-  }
+  };
   scroll();
   $(window).scroll(function() {
     scroll();
