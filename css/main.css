@@ -4,18 +4,20 @@
   box-sizing: border-box;
 }
 .bg-header {
-  /* background-image: url(../assets/images/office-1.jpg); */
+  background-image: url(../assets/images/office-3.jpg);
   background-size: cover;
   background-attachment: fixed;
   /* background: linear-gradient(#fff, #C1A8E4); */
   color: white;
 }
 .bg-nav {
-  background-color:rgba(255, 0, 0, 0.5);
+  /* background-color:rgba(255, 0, 0, 0.5); */
   /* background-color: #C1A8E4; */
   background-color: transparent;
+  transition: all 0.7s ease;
+  padding: 15px;
   /* height: 70px; */
-  transition: height 2s;
+  /* transition: height 2s; */
 }
 .shadow {
   box-shadow: 0px 8px 10px #999;
@@ -104,7 +106,12 @@
 position: absolute;
 right: 0;
 }
-
+.bg-white {
+  background-color: white
+}
+.mg-top-bottom-45 {
+  margin: 45px 0;
+}
 /*clases reutilizables */
 .flex-center-center {
   display: flex;
@@ -133,10 +140,14 @@ right: 0;
   padding-left: 30px
 }
 .mg-45 {
-  margin:  0 45px;
+  margin: 0 20px;
 }
 .mg-all-45 {
   margin: 45px;
+}
+h2{
+  margin-top: 0;
+  padding: 40px;
 }
 .mg-top-45 {
   margin-top: 45px;
@@ -146,7 +157,10 @@ right: 0;
 }
 .bg-nav-scroll {
   background-color: white;
+  transition: all 0.7s ease;
+  /* color: rgb(247, 244, 244); */
   height: auto;
+  padding: 5px;
   /* color: black; */
 }
 .color-black{
@@ -195,4 +209,9 @@ right: 0;
 }
 .width-100 {
   width: 100vw;
+}
+@media (min-width: 768px) {
+  .mg-45 {
+    margin: 0 45px;
+  }
 }
