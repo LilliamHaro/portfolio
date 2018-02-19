@@ -41,16 +41,19 @@
   font-family: 'Righteous', cursive;
 }
 .font-size-7rem {
-  font-size: 5em;
+  font-size: 10rem;
+}
+.font-size-9rem {
+  font-size: 10rem;
 }
 .font-size-2rem {
-  font-size: 2rem;
+  font-size: 4rem;
 }
 .font-size-5rem {
   font-size: 4rem;
 }
 .navbar-default .navbar-nav > li > a {
-    color: black;
+    color:  white;
 }
 .round {
   border-radius: 50%;
@@ -126,8 +129,9 @@ right: 0;
 }
 .image {
   /* width: 300px; */
-  height: 200px;
+  height: 210px;
   margin: auto;
+  border-radius: 5px;
 }
 .border-radius{
   border-radius: 5px;
@@ -156,7 +160,7 @@ h2{
   margin-bottom: 25px;
 }
 .bg-nav-scroll {
-  background-color: white;
+  background-color: #243b5d;
   transition: all 0.7s ease;
   /* color: rgb(247, 244, 244); */
   height: auto;
@@ -188,9 +192,85 @@ h2{
   color: white;
 }
 .bg-white {
-  background-color: white;
+  background-color: #f5f7f8;
 }
-
+.color-aquamarine {
+  color: #cddbb7;
+}
+.bg-aqua {
+  background-color:#cddbb7;
+}
+.color-carmin {
+  color: #9b3659;
+}
+.bg-carmin {
+  background-color: #9b3659;
+}
+.bg-sof-soft-gray {
+  background-color: #e1e3e6;
+}
+.margin-auto {
+  margin:auto;
+}
+.font-size-18 {
+  font-size: 18px;
+}
+.color-salmon {
+  color: #ea877e;
+}
+.border-salmon {
+  border-color: #ea877e;
+}
+.color-blue {
+  color: #2b5169
+}
+.color-turquesa {
+  color: #4a979a;
+}
+.border-blue {
+    border-color: #2b5169;
+}
+.border-turquesa {
+    border-color: #4a979a;
+}
+.border-gray {
+  border-color: rgba(0,0,0,0.7);
+}
+.color-gray {
+  color: rgba(0,0,0,0.7);;
+}
+.img-0 {
+  background-position: center bottom;
+  background-size: cover;
+}
+.img-1 {
+  background-image: url(../assets/images/labcar.png);
+}
+.img-2 {
+  background-image: url(../assets/images/trello.png);
+}
+.img-3 {
+  background-image: url(../assets/images/bn-branch.png);
+}
+.img-4 {
+  background-image: url(../assets/images/dashboard.png);
+}
+.img-5 {
+  background-image: url(../assets/images/twitter.png);
+}
+.img-6 {
+  background-image: url(../assets/images/lift.png);
+}
+.pd-15 {
+  margin-bottom: 15px;
+}
+.pd-bottom-0 {
+  padding-bottom: 0;
+}
+.box-soft {
+  padding: 15px;
+  border: 2px solid #2b5169;
+}
 /* ---------------------------
 
 ---------------------------- */
@@ -213,5 +293,12 @@ h2{
 @media (min-width: 768px) {
   .mg-45 {
     margin: 0 45px;
+  }
+  .big-round {
+    width: 210px;
+    height: 210px;
+  }
+  .font-size-9rem {
+    font-size: 15rem;
   }
 }

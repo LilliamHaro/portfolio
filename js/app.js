@@ -1,6 +1,6 @@
 $(document).ready(function() {
   var scroll = function() {
-    if ($(document).scrollTop() > 120) {
+    if ($(document).scrollTop() > 200) {
       $('.navbar-fixed-top').addClass('bg-nav-scroll');
       // $('.navbar-fixed-top').removeClass('height-10');
     } else {
