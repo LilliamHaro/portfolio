@@ -149,9 +149,6 @@ right: 0;
   background-color: #C1A8E4;
   /* background: linear-gradient(#C1A8E4, white); */
 }
-.pd-left-30 {
-  padding-left: 30px
-}
 .mg-45 {
   margin: 0 20px;
 }
@@ -271,7 +268,7 @@ h2{
   background-image: url(../assets/images/twitter.png);
 }
 .img-6 {
-  background-image: url(../assets/images/lift.png);
+  background-image: url(../assets/images/uber.png);
 }
 .pd-15 {
   margin-bottom: 15px;
@@ -361,7 +358,51 @@ h2{
 .align-justify {
   text-align: justify;
 }
+.mg-b-x {
+  margin-bottom: 25px;
+}
+.icon-image {
+  width: 100px;
+  height: 100px;
+  margin-bottom: 10px;
+}
+.icon-image-fire {
+  width: 80px;
+  height: 80px;
+  margin-bottom: 15px;
+}
+.pd-left-30 {
+  padding-left: 60px;
+}
+.pd-bot-h2 {
+  padding-bottom: 0px;
+}
+.pd-left-extracto {
+  padding-left: 40px;
+}
 @media (min-width: 768px) {
+  .pd-left-30 {
+    padding-left: 30px;
+  }
+  .pd-left-extracto {
+    padding-left: 40px;
+  }
+  .pd-bot-h2 {
+    padding-bottom: 40px;
+  }
+  .icon-image {
+    width: 135px;
+    height: 140px;
+    margin-bottom: 10px;
+  }
+  .icon-image-fire {
+    width: 115px;
+    height: 115px;
+    margin-bottom: 15px;
+  }
+  .mg-b-x {
+    margin-bottom: 15px;
+  }
   .font-size-cont {
     font-size: 25px;
   }
