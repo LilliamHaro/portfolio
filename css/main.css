@@ -372,13 +372,19 @@ h2{
   margin-bottom: 15px;
 }
 .pd-left-30 {
-  padding-left: 60px;
+  padding-left: 40px;
 }
 .pd-bot-h2 {
   padding-bottom: 0px;
 }
 .pd-left-extracto {
   padding-left: 40px;
+}
+.gray-image {
+  filter: saturate(200%);
+  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
+
 }
 @media (min-width: 768px) {
   .pd-left-30 {
