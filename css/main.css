@@ -248,9 +248,32 @@ h2{
 .color-gray {
   color: rgba(0,0,0,0.7);;
 }
+
+.proy-text {
+  height: 150px;
+  width: 80%;
+ 
+  color: transparent;
+  padding: 25px;
+}
+.img-0 .proy-text:hover {
+  background-color: rgba(0,0,0,0.8);
+  
+  color: white;
+  border-radius: 5px;
+  filter: blur(0px);  
+}
 .img-0 {
   background-position: center bottom;
   background-size: cover;
+}
+
+.proy-text:hover {
+  background-color: rgba(0,0,0,0.8);
+  
+  color: white;
+  border-radius: 5px;
+  filter: blur(0px);  
 }
 .img-1 {
   background-image: url(../assets/images/labcar.png);
